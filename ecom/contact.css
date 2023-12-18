@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-color{
+    background-color: #a50000;
+    color: #fffef8;
+}
+.color{
+    color:#fffef8;
+}
+.icon-size{
+    font-size: 20px;
+    text-align: right;
+    margin-left: 45vw;
+    cursor: pointer;
+}
+@media (max-width: 868px){
+    .icon-size{
+        margin-left: 0;
+    }
+}
+.container{
+    margin-top: 50px;
+}
+.container .bold-red{
+    color: #a50000;
+}
+a{
+    text-decoration: none;
+    color: #fffef8;
+}
+a:hover{
+    text-decoration: none;
+    color: #fffef8;
+}
+.hire-btn-color{
+    background-color: #285476;
+    color: #fffef8;
+    font-weight: bold;
+}
+.maps-max-width-on-mobile{
+    width: 600px !important;
+}
+@media (max-width: 576px){
+    .maps-max-width-on-mobile{
+        width: 100% !important;
+    }
+}
